@@ -1,0 +1,1 @@
+../wrk2/wrk -D exp -t 8 -c 500 -d 5m -R 1000 -s ./wrk2/scripts/social-network/compose-post.lua http://192.168.59.105:30080/wrk2-api/post/compose

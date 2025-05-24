@@ -1,8 +1,12 @@
 name: nginx-thrift
 
+type: NodePort
+
 ports:
   - port: 8080
     targetPort: 8080
+    protocol: TCP
+    nodePort: 30080
 
 container:
   image: yg397/openresty-thrift

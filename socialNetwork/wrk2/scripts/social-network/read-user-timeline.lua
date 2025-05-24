@@ -1,6 +1,7 @@
-local socket = require("socket")
-local time = socket.gettime()*1000
-math.randomseed(time)
+-- local socket = require("socket")
+-- local time = socket.gettime()*1000
+-- math.randomseed(time)
+math.randomseed(os.clock() * 1000000)
 math.random(); math.random(); math.random()
 
 -- load env vars

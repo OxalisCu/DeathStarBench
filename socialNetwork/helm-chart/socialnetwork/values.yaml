@@ -7,8 +7,8 @@ global:
     targetCPUUtilizationPercentage: '60'
   resources:
     limits:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 4000m
+      memory: 8Gi
     requests:
       cpu: 100m
       memory: 128Mi
